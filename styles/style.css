@@ -1,0 +1,54 @@
+
+#person1, #person3, #person5, #person7, #person9, #person11
+{
+  margin-left: 4%
+}
+#person2, #person4, #person6, #person8, #person10, #person12
+{
+  margin-right: 4%
+}
+
+.person{
+  display: block;
+  width: 70px;
+  height: 100px;
+  pointer-events: auto;
+  align-items: center;
+  outline: 2px solid #000; /* Чёрная рамка */
+  border: 3px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+
+}
+
+.header{
+  margin-bottom: 5rem;
+  display: flex;
+  border-width: medium;
+  outline: 2px solid #000; /* Чёрная рамка */
+  border: 3px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+  /* overflow: scroll; */
+}
+
+.header_photo{
+  margin:5% 5% 5% 5%;
+  align-items: center;
+}
+
+.header_info{
+  margin:5% 5% 5% 5%;
+  align-items: center;
+}
+
+.testjpg{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place_person_top ,.place_person_bot{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
